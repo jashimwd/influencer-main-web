@@ -84,11 +84,14 @@ nav li {
    /* align-items: center; */
    grid-template-columns: repeat(3, 1fr);
    margin: 100px 100px;
-   gap: 20px;
+   gap: 40px;
+  
 }
 .container-img{
     padding: 20px 20px;
-    background-color: rgb(242, 245, 245);
+    /* background-color: rgb(242, 245, 245); */
+    border: 2px solid rgb(219, 217, 217);
+    box-shadow: 3px 3px 3px 3px rgb(201, 197, 197);
 }
 .container-img h3 {
     font-size: 25px;
@@ -122,6 +125,21 @@ nav li {
     font-weight: 700;
     font-size: 17px;
     padding: 10px 35px;
+}
+/* footer section */
+.footer-section{
+    text-align: center;
+    background-color: #0A0826;
+    padding: 25px;
+}
+.footer-section h6 {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+.footer-section p{
+    font-size: 10px;
+    color: #FFFFFF;
 }
 
 
@@ -160,6 +178,9 @@ nav li {
         padding: 0px 20px;
         margin-bottom: 20px;
     
+    }
+    .footer-section{
+        padding: 50px 30px;
     }
     
 }
